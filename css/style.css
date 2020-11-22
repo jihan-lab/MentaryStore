@@ -1,0 +1,17 @@
+/* navbar */
+.navbar-brand {
+    font-family: oswald;
+}
+
+.jumbotron {
+    background-image: url(../img/jumbotron-bg.jpg);
+    background-size: cover;
+    height: 540px;
+    position: relative;
+    color: white;
+}
+
+
+.tombol {
+    border-radius: 40px;
+}
