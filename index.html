@@ -13,67 +13,150 @@
   </head>
   <body>
     <!-- Navabar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container">
-        <a class="navbar-brand" href="#">
-            <img src="img/employee.png" width="30" height="30" alt="" loading="lazy">
-          </a>
-        <a class="navbar-brand" href="#">Mentary Store</a>
-      
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                <a class="nav-link" href="#">Price list <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Bags</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Stickers</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Books</a>
-                </li>
-            </ul>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+          <!-- Just an image -->
 
-            </div>
-        </div>
-    </nav>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <nav class="navbar navbar-light bg-light">
+                <a class="navbar-brand" href="#">
+                <img src="img/sticker2.jpeg" width="30" height="30" alt="" loading="lazy">
+                </a>
+            </nav>
+        <a class="navbar-brand" href="#">Mentary Store</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <div class="container">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Bags</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Bags</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Stickers</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Books</a>
-                    </li>
-                </ul>
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0 tombol" type="submit">Search</button>
-                </form>
-            </div>
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">All item</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Bags</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pencil Case</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Stickers</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0 tombol" type="submit">Search</button>
+          </form>
+        </div>
         </div>
       </nav>
     <!-- akhir navbar -->
 
-    <div class="jumbotron">
-        <div class="container">
+    
+    <div class="jumbotron mt-5">
+        <div class="container text-center">
             <h1 class="display-4">Mentary Store</h1>
             <p class="lead">Unik aja barangnya</p>
-            <hr class="my-4">
-            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-            <a class="btn btn-primary btn-lg tombol" href="#" role="button">Learn more</a>
         </div>
     </div>
+
+    <div class="container">
+    <div class="row justify-content-center">
+        <div class="col-10 info-panel">
+          <div class="row">
+            <div class="col-lg">
+              <img src="img/employee.png" alt="employee" class="float-left">
+              <h4>24 Hours</h4>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="col-lg">
+              <img src="img/hires.png" alt="hires" class="float-left">
+              <h4>24 Hours</h4>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="col-lg">
+              <img src="img/security.png" alt="security" class="float-left">
+              <h4>24 Hours</h4>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    <!-- content jualan -->
+    <section class="testimonial">
+        <div class="row justify-content-center quote">
+          <div class="col-lg-6">
+            <h5>"Awali dengan hal yang baru dan gratis ongkir"</h5>
+          </div>
+      </div>
+    </section>
+
+      <div class="row row-cols-1 row-cols-md-5">
+        <div class="col mb-4">
+          <div class="card">
+            <img src="img/sticker2.jpeg" class="card-img-top img-thumbnail" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Sticker</h5>
+              <p class="card-text">Elgant and beautiful</p>
+              <a href="#" class="btn btn-primary">Rp. 15.000,-</a>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+            <div class="card">
+              <img src="img/sticker2.jpeg" class="card-img-top img-thumbnail" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Sticker</h5>
+                <p class="card-text">Elgant and beautiful</p>
+                <a href="#" class="btn btn-primary">Rp. 15.000,-</a>
+              </div>
+            </div>
+        </div>
+        <div class="col mb-4">
+            <div class="card">
+              <img src="img/sticker2.jpeg" class="card-img-top img-thumbnail" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Sticker</h5>
+                <p class="card-text">Elgant and beautiful</p>
+                <a href="#" class="btn btn-primary">Rp. 15.000,-</a>
+              </div>
+            </div>
+        </div>
+        <div class="col mb-4">
+            <div class="card">
+              <img src="img/sticker2.jpeg" class="card-img-top img-thumbnail" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Sticker</h5>
+                <p class="card-text">Elgant and beautiful</p>
+                <a href="#" class="btn btn-primary">Rp. 15.000,-</a>
+              </div>
+            </div>
+        </div>
+        <div class="col mb-4">
+            <div class="card">
+              <img src="img/sticker2.jpeg" class="card-img-top img-thumbnail" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Sticker</h5>
+                <p class="card-text">Elgant and beautiful</p>
+                <a href="#" class="btn btn-primary">Rp. 15.000,-</a>
+              </div>
+            </div>
+        </div>
+        <div class="col mb-4">
+            <div class="card">
+              <img src="img/sticker2.jpeg" class="card-img-top img-thumbnail" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Sticker</h5>
+                <p class="card-text">Elgant and beautiful</p>
+                <a href="#" class="btn btn-primary">Rp. 15.000,-</a>
+              </div>
+            </div>
+        </div>
+      </div>
+    <!-- akhir content jualan -->
+
+    
 
     <!-- Optional JavaScript; choose one of the two! -->
 
